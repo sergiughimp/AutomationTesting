@@ -38,3 +38,10 @@ Session 4 \
 **** while: iterates until the condition is true \
 **** while else: runs only when iteration of while ends without any taking something from while \
 **** nested loop: for in for \
+
+Session 5 \
+*********** functions \
+**** simple functions \
+**** functions with parameters (variables that can be passed to function) \
+**** functions with 2 parameters \
+**** functions with return \

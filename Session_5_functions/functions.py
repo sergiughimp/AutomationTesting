@@ -7,12 +7,12 @@ def say_hello():
     print("My first function")
 say_hello()
 
-print("**** function with parameters (variables that can be passed to function")
+print("**** functions with parameters (variables that can be passed to function)")
 def say_hello_to(name):
     print(f"Hello {name}")
 say_hello_to("Michael")
 
-print("**** function with 2 parameters")
+print("**** functions with 2 parameters")
 # parameters goes to the positions. first variable goes to first parameter. second variable goes to second parameter
 def say_good_bye(name, age):
     print(f"Hello {name}, you have {age} years old")
@@ -26,7 +26,7 @@ say_hi("David","Another message")
 say_hi("Tomas")
 
 # parameters stays only in the body of the function, and all the variables from inside the function
-print("**** function with return")
+print("**** functions with return")
 # return = value that a function sends back when it is called
 
 # counter function: a list, find_element
