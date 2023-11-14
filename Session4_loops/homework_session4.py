@@ -58,7 +58,7 @@ Vine un cumpărător bogat dar indecis. Îi vom prezenta toate mașinile cu exce
 '''
 for car in cars:
     if car == "Trabant" or car == "Lăstun":
-        break
+        continue
     print(f"You may like this car {car}")
 '''
 5. Modernizează parcul de mașini:
