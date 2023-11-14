@@ -26,3 +26,15 @@ Session 3 \
 **** dict \
 **** set \
 **** tuples 
+
+
+Session 4
+*********** loops
+**** for: to iterate over a sequence of data. with a known number of steps
+**** for each
+**** break: stop the iteration
+**** for else: runs only when iteration of for ends without any taking something from for
+**** continue: continues to the iteration to next step
+**** while: iterates until the condition is true
+**** while else: runs only when iteration of while ends without any taking something from while
+**** nested loop: for in for
