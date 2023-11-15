@@ -2,7 +2,6 @@
 1. În cadrul unui comentariu, explică cu cuvintele tale ce este o variabilă.
 '''
 print(" *********************************************************** Ex 1")
-print("variable = container to store values")
 '''
 2. Declară și initializează câte o variabilă din fiecare din următoarele tipuri de variabilă :
     - string

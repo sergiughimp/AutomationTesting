@@ -26,8 +26,7 @@ say_hi("David","Another message")
 say_hi("Tomas")
 
 # parameters stays only in the body of the function, and all the variables from inside the function
-print("**** functions with return")
-# return = value that a function sends back when it is called
+print("**** functions with return (value that a function sends back when it is called)")
 
 # counter function: a list, find_element
 # return: how many times find_element is in the list

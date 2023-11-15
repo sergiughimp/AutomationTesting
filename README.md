@@ -1,37 +1,37 @@
 Session 1 \
-*********** comments \
-*********** variables \
-*********** data types \
-*********** type_casting \
-*********** 'print' function & concatenation \
-*********** assert \
-*********** input() \
+*********** comments = lines of code that program not read, only for humans \
+*********** variables = container to store values \
+*********** data types = int, str, bool, float/double \
+*********** type_casting = force the conversion from one data type to another \
+*********** print() function = way to communicate with program (output) \
+*********** assert = used to make verifications \
+*********** input() function = to give data to program from user keyboard \
 Session 2 \
-*********** operators \
-**** assignation \
-**** arithmetics \
-** concatenation \
-**** comparison \
-**** logical: and, or, not \
+*********** operators = operations with variables \
+**** assignation =, +=, -=, *=, /= \
+**** arithmetics +, -, *, /, **, % \
+** concatenation = add one string/list to another\
+**** comparison: <, >, ==, <=, >=, != \
+**** logical: and, or, not
 
 
-*********** control flow \
+*********** control flow = check a condition \
 **** if \
-**** if - else \
-**** if - else - if - else \
+**** if - else = if condition is true goes on first branch, if condition is false goes on second branch \
+**** if - else - if - else
 
 Session 3 \
-*********** data structures \
-**** list \
-**** dict \
-**** set \
-**** tuples \
+*********** data structures = collection of data to store multiple items in one variable. size of data collection use len() function \
+**** list = ordered, mutable, allow duplicates, allow slicing \
+**** dict = key:value pairs \
+**** set = unordered, unchangeable, un-indexed, no slicing \
+**** tuples = ordered and unchangeable, allow duplicates, allow slicing
 
 
 Session 4 \
 *********** loops \
-**** for: to iterate over a sequence of data. with a known number of steps \
-**** for each \
+**** for: to iterate (through the index) over a sequence of data. with a known number of steps \
+**** for each: to iterate (through the value) over a sequence of data. with a known number of steps \
 **** break: stop the iteration \
 **** for else: runs only when iteration of for ends without any taking something from for \
 **** continue: continues to the iteration to next step \
@@ -40,8 +40,15 @@ Session 4 \
 **** nested loop: for in for \
 
 Session 5 \
-*********** functions \
+*********** functions = block of code that can be reused \
 **** simple functions \
 **** functions with parameters (variables that can be passed to function) \
 **** functions with 2 parameters \
-**** functions with return \
+**** functions with return (value that a function sends back when it is called) \
+
+Session 6 \
+*********** class = template to create objects from that class \
+**** objects = instance of a class \
+**** __init__ = constructor of the class, used as a start to create objects in the class. \
+**** self = keyword used to access variable that belongs to that class \
+**** methods = functions on objects 

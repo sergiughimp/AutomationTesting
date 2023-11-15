@@ -3,14 +3,14 @@ print("*********************************************************** comments")
 Multiline comment
 
 'print' function = way to communicate with program (output)
-'input' function = to give data to program
+'input' function = to give data to program from user keyboard
 '''
 
 # one line comment
 
 print("Hello world") # inline comment
 
-print("*********************************************************** variables")
+print("*********************************************************** variable = container to store values")
 # snake_case = style to define variables in python (small letters, underscore between words)
 my_first_variable = 1
 print(my_first_variable)

@@ -147,7 +147,7 @@ else:
     print("No orange car's")
 print("******************************** set = only unique items")
     # collection of data to store multiple unique values in a single variable
-    # unordered, unchangeable, unidexed, no slicing
+    # unordered, unchangeable, un-indexed, no slicing
 empty_set = {}
 print(empty_set)
 seasons_set = {"spring", "summer", "autumn", "winter"}
