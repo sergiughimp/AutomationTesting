@@ -52,3 +52,10 @@ Session 6 \
 **** __init__ = constructor of the class, used as a start to create objects in the class. \
 **** self = keyword used to access variable that belongs to that class \
 **** methods = functions on objects
+
+Session 7 \
+*********** Oriented Object Programming (OOP) concepts: \
+**** Inheritance = one class inherits the attributes and methods of another class. \
+**** Encapsulation = binding data (attributes) and methods (operations) together into objects and limiting the direct access to its internals. Use access modifiers public, __private (can be accessed only from inside the class), _protected (can be accessed from current class and child class). \
+**** Abstraction =  hides all but the relevant data about an object. used as a template for methods from the child class. doesn't have constructor. can't create abstract objects \
+**** Polymorphism = objects take different forms or behaviour in different ways depending on the context in which they are used. \
