@@ -37,18 +37,18 @@ Session 4 \
 **** continue: continues to the iteration to next step \
 **** while: iterates until the condition is true \
 **** while else: runs only when iteration of while ends without any taking something from while \
-**** nested loop: for in for \
+**** nested loop: for in for
 
 Session 5 \
 *********** functions = block of code that can be reused \
 **** simple functions \
 **** functions with parameters (variables that can be passed to function) \
 **** functions with 2 parameters \
-**** functions with return (value that a function sends back when it is called) \
+**** functions with return (value that a function sends back when it is called) 
 
 Session 6 \
 *********** class = template to create objects from that class \
 **** objects = instance of a class \
 **** __init__ = constructor of the class, used as a start to create objects in the class. \
 **** self = keyword used to access variable that belongs to that class \
-**** methods = functions on objects 
+**** methods = functions on objects
