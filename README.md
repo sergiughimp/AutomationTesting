@@ -58,4 +58,26 @@ Session 7 \
 **** Inheritance = one class inherits the attributes and methods of another class. \
 **** Encapsulation = binding data (attributes) and methods (operations) together into objects and limiting the direct access to its internals. Use access modifiers public, __private (can be accessed only from inside the class), _protected (can be accessed from current class and child class). \
 **** Abstraction =  hides all but the relevant data about an object. used as a template for methods from the child class. doesn't have constructor. can't create abstract objects \
-**** Polymorphism = objects take different forms or behaviour in different ways depending on the context in which they are used. \
+**** Polymorphism = objects take different forms or behaviour in different ways depending on the context in which they are used.
+
+Session 8 \
+*********** Selectors \
+****** pip install selenium \
+****** pip install webdriver-manager \
+****** site for testing: (ex: https://formy-project.herokuapp.com/form) \
+**** Selenium = library in python used to interact with webpages \
+** find_element(By.ID, "id") - ID selector \
+** find_element(By.LINK_TEXT, "TEXT") - LINK_TEXT selector \
+** find_element(By.PARTIAL_LINK_TEXT, "TE"") - PARTIAL_LINK_TEXT selector \
+** find_element(By.TAG_NAME, "input") - TAG_NAME selector (one 'input') \
+** find_elements(By.TAG_NAME, "input"") - TAG_NAME selector (all 'inputs') \
+** find_element(By.NAME, "email") - NAME selector \ 
+** find_element(By.CLASS, "form-control") - CLASS selector \
+
+******* find_element(By.CSS, "h1") - CSS selector \
+**** css selectors = can group multiple types of selectors (TAG_NAME, ID (#), CLASS (.), others (attribute_name = ["value"]), HTML structure) \
+******* find_element(By.XPATH, '//*[@id="password"]') - XPATH selector \
+** // - starts from root and takes all the descendants \
+** * - any type of tag \
+** [@something="value"] - selects only the tags that have the attribute "something = value" \
+** / - only direct descendant \
