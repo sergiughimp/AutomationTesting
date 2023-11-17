@@ -72,12 +72,28 @@ Session 8 \
 ** find_element(By.TAG_NAME, "input") - TAG_NAME selector (one 'input') \
 ** find_elements(By.TAG_NAME, "input"") - TAG_NAME selector (all 'inputs') \
 ** find_element(By.NAME, "email") - NAME selector \ 
-** find_element(By.CLASS, "form-control") - CLASS selector \
+** find_element(By.CLASS, "form-control") - CLASS selector
 
 ******* find_element(By.CSS, "h1") - CSS selector \
-**** css selectors = can group multiple types of selectors (TAG_NAME, ID (#), CLASS (.), others (attribute_name = ["value"]), HTML structure) \
+**** css selectors = can group multiple types of selectors (TAG_NAME, ID (#), CLASS (.), others (attribute_name = ["value"]), HTML structure)
+
 ******* find_element(By.XPATH, '//*[@id="password"]') - XPATH selector \
 ** // - starts from root and takes all the descendants \
 ** * - any type of tag \
 ** [@something="value"] - selects only the tags that have the attribute "something = value" \
-** / - only direct descendant \
+** / - only direct descendant
+
+Session 9 \
+*********** Waits \
+********* https://selenium-python.readthedocs.io/waits.html \
+**** sleep() - code sleeps x seconds, no matters of element or event from the code. the test will have more time to run \
+**** implicit wait - global setting that applies to all elements in a Selenium script. It waits a specified time before throwing an exception if the element is not found \
+**** explicit wait - when it waits for a certain condition to occur before to proceeding to further in the code
+
+********** UnitTests = unittest library. create a class test that inherits TestCase \
+******* Mandatory methods \
+***** setUp() - everything before the testing \
+***** any number of test - mandatory all the test have to start with keyword 'test' \
+***** tearDown() - everything after the testing
+
+ 
