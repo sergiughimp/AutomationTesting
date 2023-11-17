@@ -20,8 +20,8 @@ logical: and, or, not
 control flow = check a condition
 ```
 if
-if - else = if condition is true goes on first branch, if condition is false goes on second branch
-if - else - if - else
+if-else = if condition is true goes on first branch, if condition is false goes on second branch
+if-else-if-else
 ```
 Session 3 \
 data structures = collection of data to store multiple items in one variable. size of data collection use len() function
@@ -63,9 +63,14 @@ Session 7 \
 Oriented Object Programming (OOP) concepts:
 ```
 Inheritance = one class inherits the attributes and methods of another class.
-Encapsulation = binding data (attributes) and methods (operations) together into objects and limiting the direct access to its internals. Use access modifiers public, __private (can be accessed only from inside the class), _protected (can be accessed from current class and child class).
-Abstraction =  hides all but the relevant data about an object. used as a template for methods from the child class. doesn't have constructor. can't create abstract objects
-Polymorphism = objects take different forms or behaviour in different ways depending on the context in which they are used.
+Encapsulation = binding data (attributes) and methods (operations) together into objects
+    and limiting the direct access to its internals. Use access modifiers public, __private
+     (can be accessed only from inside the class), _protected (can be accessed from current
+     class and child class).
+Abstraction =  hides all but the relevant data about an object. used as a template for 
+    methods from the child class. doesn't have constructor. can't create abstract objects
+Polymorphism = objects take different forms or behaviour in different ways depending on 
+    the context in which they are used.
 ```
 Session 8 \
 Selectors \
@@ -83,7 +88,8 @@ find_elements(By.TAG_NAME, "input"") - TAG_NAME selector (all 'inputs')
 find_element(By.NAME, "email") - NAME selector
 find_element(By.CLASS, "form-control") - CLASS selector
 find_element(By.CSS, "h1") - CSS selector
-    css selectors = can group multiple types of selectors (TAG_NAME, ID (#), CLASS (.), others (attribute_name = ["value"]), HTML structure)
+    css selectors = can group multiple types of selectors (TAG_NAME, ID (#), CLASS (.), 
+    others (attribute_name = ["value"]), HTML structure)
 find_element(By.XPATH, '//*[@id="password"]') - XPATH selector
     // - starts from root and takes all the descendants
     * - any type of tag
@@ -94,9 +100,12 @@ Session 9 \
 Waits
 https://selenium-python.readthedocs.io/waits.html
 ```
-sleep() - code sleeps x seconds, no matters of element or event from the code. the test will have more time to run
-implicit wait - global setting that applies to all elements in a Selenium script. It waits a specified time before throwing an exception if the element is not found
-explicit wait - when it waits for a certain condition to occur before to proceeding to further in the code
+sleep() - code sleeps x seconds, no matters of element or event from the code. the test 
+    will have more time to run
+implicit wait - global setting that applies to all elements in a Selenium script. It waits
+    a specified time before throwing an exception if the element is not found
+explicit wait - when it waits for a certain condition to occur before to proceeding 
+    to further in the code
 ```
 UnitTests = unittest library. create a class test that inherits TestCase
 
@@ -197,5 +206,6 @@ Sprint = fixed length periods of work (3-4 days or 1-2 weeks). Start task -> End
 ```
 Epic (Step 1) = functionality of the application (can be divided in tasks)
 User Story (Step 2) - explication of the functionality or feature software
-Acceptance criteria (Step 3 (Final)) (DD = definition of done) = conditions that must be satisfied for a product, user story, or increment of work to be accepted
+Acceptance criteria (Step 3 (Final)) (DD = definition of done) = conditions that must be 
+    satisfied for a product, user story, or increment of work to be accepted
 ```
