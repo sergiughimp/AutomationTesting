@@ -138,7 +138,7 @@ class Login(unittest.TestCase):
             success_message = WebDriverWait(self.driver, 5).until(
                 EC.visibility_of_element_located((By.ID, "flash"))
             )
-            print(f"Success message {success_message.text} is displayed.)
+            print(f"Success message {success_message.text} is displayed.")
             self.assertIn("secure area!", success_message.text,"Required text is not int the message.")
         except Exception as e:
             print(f"Error: {e}")

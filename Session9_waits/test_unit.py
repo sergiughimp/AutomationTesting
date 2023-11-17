@@ -10,9 +10,11 @@ class FirstTestCase(unittest.TestCase):
     def setUp(self):
         pass
 
+    # @unittest.skipIf(environment == "PRODUCTION", "Do not run on production")
     def test_nothing(self):
         assert 1 + 1 == 2
 
+    @unittest.skip
     def test_something(self):
         assert len("Michael") == 7
 

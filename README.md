@@ -96,4 +96,13 @@ Session 9 \
 ***** any number of test - mandatory all the test have to start with keyword 'test' \
 ***** tearDown() - everything after the testing
 
+Session 10 \
+********** TestSuite \
+********** pip install html-testRunner - to genera HTML reports \
+********** skip decorator @unittest.skip
+********** alerts (JavaScript)
+**** Alert - //button[@onclick='jsAlert()']
+**** Confirm - //button[@onclick='jsConfirm()
+**** Prompt - //button[@onclick='jsPrompt()
+********* syntax to login with basic authentication (pop-up from browser)
  
