@@ -246,3 +246,70 @@ To run only one single Scenario this line on code can be used:
 ```commandline
 behave -f html -o behave-report.html --tags=single
 ```
+
+Session 13 \
+Continue working on project from Session 12
+
+Session 14 \
+Unit Testing = testing to the lowest level possible. Function that tests another funtion. The test function calls the tested function and returns right data using assert.
+
+To do unit test you have to install 'pytest' library using this line on code:
+```commandline
+pip install pytest
+```
+TDD (Test Driven Development) \
+    1. Write Test \
+    2. Test Fails \
+    3. Write Code \
+    4. Test Passes \
+    5. Refactor
+
+HTTP/HTTPS = hyper text transfer protocol / secure = communication protocol between client and server. helps to transfer data over the network
+
+HTTP Answers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
+```commandline
+200 = OK success = when request data from server
+201 = Created - success = when put data to server
+204 = No Content - success = when delete something
+
+400 = Bad request = invalid value for parameters
+401 = Unauthorized = when is not log in
+403 = Forbidden = when user is loged in but doesn't have rights to edit
+404 = Not Foud = the server can't find the requested resource
+408 = Request Timeout = it takes to long to load the request from server
+
+500 = Internal Server Error = request arrived to server and it is a bug
+503 = Service Unavailable = server is stoped
+```
+```
+Client - API requests - Server - db queries - DataBase
+```
+Testing:
+```
+UI (User Interface) level / Client - Web Testing (Selenium WebDriver)
+API - Unit Testing
+API level (communication between Client and Server) -> API Testing
+```
+
+API = Application Programming Interface = commands that help the programmer or application interface communicate with the logic behind it
+Server listen to receive requests -> process the information -> sends an answer to client -> shows to the user
+
+Example API: \
+https://randomuser.me/ \
+https://randomuser.me/api/
+
+Change of data as a JSON (looks like a dictionary in Python)
+
+API Methods
+
+CRUD = create, read, update, delete
+
+Most used API methods:
+```commandline
+GET = when request data from server -> usually 200
+POST = when send data to server -> usually 201
+PATCH = update data through object attributes -> usually 200 or 201
+PUT = update data through overwriting the object -> usually 200 or 201
+DELETE = delete the data -> usually 204
+
+```
