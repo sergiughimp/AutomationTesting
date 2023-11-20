@@ -311,5 +311,18 @@ POST = when send data to server -> usually 201
 PATCH = update data through object attributes -> usually 200 or 201
 PUT = update data through overwriting the object -> usually 200 or 201
 DELETE = delete the data -> usually 204
+```
 
+Session 15 \
+API testing
+
+Introduction to Postman \
+Simple Books API
+https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md
+
+
+Install 'requests' library and 'pytest' library:
+```commandline
+pip install requests
+pip install pytest
 ```
