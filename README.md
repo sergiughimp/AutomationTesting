@@ -73,11 +73,15 @@ Polymorphism = objects take different forms or behaviour in different ways depen
     the context in which they are used.
 ```
 Session 8 \
-Selectors \
-    1. pip install selenium (https://selenium-python.readthedocs.io/ library for testing websites) \
-    2. pip install webdriver-manager (https://pypi.org/project/webdriver-manager/)\
-    3. site for testing: (ex: https://formy-project.herokuapp.com/form) \
-
+Selectors
+```commandline
+    pip install selenium 
+    https://selenium-python.readthedocs.io/ library for testing websites
+    pip install webdriver-manager 
+    https://pypi.org/project/webdriver-manager/
+    site for testing: 
+    https://formy-project.herokuapp.com/form
+```
 Selenium = library in python used to interact with webpages
 ```
 find_element(By.ID, "id") - ID selector
@@ -184,8 +188,8 @@ Object 'context' is sent as a parameter to 'behave' to send information through 
 
 To install:
 1. pip install behave (https://behave.readthedocs.io/en/latest/ library for run the tests from Gherkin)
-2. pip install selenium (https://selenium-python.readthedocs.io/ library for testing websites)
-3. pip install behave-html-formatter (https://pypi.org/project/behave-html-formatter/ library to create HTML reports)
+2. pip install selenium (https://selenium-python.readthedocs.io/ library for testing websites) 
+3. pip install behave-html-formatter (https://pypi.org/project/behave-html-formatter/ library to create HTML reports) \
     3.1. It is a must to create a file 'behave.ini' in main folder in the same level with feature. Make the settings for this file to create the HTML report. \
     3.2.  To run the code and to generate a HTML report use this command: behave -f html -o behave-report.html
 4. pip install webdriver-manager (https://pypi.org/project/webdriver-manager/)
@@ -208,4 +212,37 @@ Epic (Step 1) = functionality of the application (can be divided in tasks)
 User Story (Step 2) - explication of the functionality or feature software
 Acceptance criteria (Step 3 (Final)) (DD = definition of done) = conditions that must be 
     satisfied for a product, user story, or increment of work to be accepted
+```
+
+Session 12 \
+Project BDD (Behave Driven Development) & TDD (Test Driven Development) & POM (Page Object Model) \
+Site for testing: https://www.saucedemo.com/
+
+Installation and Run: \
+requirements.txt - All the Python Packages in one file. To run this file with all the libraries you have to write this command
+```commandline
+pip install -r .\requirements.txt
+```
+
+Project Structure:
+1. Directory: features
+   1. directory: pages = get the selectors from webpage and implement the functionality of each step
+      1. login_page.py
+   2. directory: steps = directory with steps for each page of the project. before each method write the scenario steps with Gherkin syntax using decorators (@given, @when, @then @and @but)
+      1. login.py
+   3. file: browser.py = setUp() and tearDown() functions for webpage
+   4. file: environment.py = setting the environment of the scenario
+   5. file: login.feature = file to write the 'test scenario'
+2. File: behave.ini = initialization of the behave functionality
+
+To run the code after the writing the scenario, steps and functions use this command line on terminal:
+```commandline
+behave -f html -o behave-report.html
+```
+
+Scenario Outline = using a table with values (different values) for each try of testing
+
+To run only one single Scenario this line on code can be used:
+```commandline
+behave -f html -o behave-report.html --tags=single
 ```
