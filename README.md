@@ -1,3 +1,5 @@
+Automation (Assert, Selenium, Behave, BDD, TDD, POM, Unit Testing, API Testing) & Manual Testing
+
 Session 1
 1. comments = lines of code that the program does not read, only for humans
 2. variables = container to store values
